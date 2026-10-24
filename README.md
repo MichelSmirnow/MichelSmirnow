@@ -1,16 +1,67 @@
-## Hi there 👋
+<div align="center">
 
-<!--
-**MichelSmirnow/MichelSmirnow** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+  <!-- ================================
+       КВАДРАТНЫЙ КОНТЕЙНЕР ПРОФИЛЯ
+       ================================ -->
+  <div style="
+    width: 600px;
+    height: 600px;
+    border: 1px solid #e1e4e8;
+    border-radius: 12px;
+    overflow: hidden;
+    margin: 30px auto;
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.08);
+    display: flex;
+  ">
 
-Here are some ideas to get you started:
+    <!-- Левая часть: вертикальное изображение -->
+    <div style="
+      width: 240px;
+      height: 100%;
+      background: #fafbfc;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 16px;
+      box-sizing: border-box;
+    ">
+      <img
+        src="kurisu.png"
+        alt="Аватар профиля"
+        style="
+          max-width: 100%;
+          max-height: 100%;
+          width: auto;
+          height: auto;
+          object-fit: contain;
+          border-radius: 6px;
+        "
+      />
+    </div>
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+    <!-- Правая часть: текст, прижатый к изображению -->
+    <div style="
+      flex: 1;
+      height: 100%;
+      padding: 24px 6px 24px 12px;
+      box-sizing: border-box;
+      display: flex;
+      align-items: center;
+      text-align: left;
+    ">
+      <p style="
+        margin: 0;
+        font-size: 15px;
+        line-height: 1.7;
+        color: #24292e;
+        word-wrap: break-word;
+      ">
+        Михаил Смирнов, я студент IT направления. В моей жизни было много нереализованных проектов, и сейчас я наконец-то за них взялся, и с использованием агента собираюсь их все довести до конца. Моя тактика - создать проект вручную, добавить весь функционал с помощью агента и затем вручную дошлифовать, изменить, переправить - привести проект к готовому виду. Фанат Врат Штейна
+      </p>
+    </div>
+
+  </div>
+
+</div>
+
+---
