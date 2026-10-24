@@ -1,6 +1,6 @@
-<table>
+<table style="border: none; border-collapse: collapse;">
   <tr>
-    <td width="240" valign="top" style="border: none; border-collapse: collapse;">
+    <td width="240" valign="top">
       <img src="kurisu.png" alt="Аватар профиля" width="240">
     </td>
     <td valign="center" style="padding-left: 16px;">
